@@ -6,9 +6,7 @@ target 'CocoapodsDemo' do
   use_frameworks!
 
   # Failing pods
-  pod 'Braintree'
-  pod 'Braintree/ThreeDSecure'
-  pod 'Braintree/PayPalNativeCheckout'
+  pod 'TestingInteroperability', :git => 'https://github.com/jaxdesmarais/TestingInteroperability.git'
 
   # Working pods (inheritance removed in commit)
   # pod 'Braintree', :git => 'https://github.com/braintree/braintree_ios.git', :commit => 'cd2b4f264ec1ad55d1d18b1377e330bed8331b50'
